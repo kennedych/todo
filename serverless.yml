@@ -4,8 +4,8 @@ frameworkVersion: "=1.38.0"
 provider:
   name: aws
   runtime: nodejs6.10
-  profile: chrisprivate # AWS CLI profile name
-  stage: dev
+  #profile: chrisprivate # AWS CLI profile name
+  stage: test
   region: ap-southeast-2
   iamRoleStatements:
     - Effect: "Allow"

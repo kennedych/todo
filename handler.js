@@ -3,6 +3,7 @@
 let todo = require('./lib/todo');
 
 module.exports.getAllTodos = (event, context, callback) => {
+  console.log('testing...');
   todo.getAllTodos(event, callback);
 };
 

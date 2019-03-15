@@ -1,6 +1,9 @@
 dev:
   APP_SECRET: secret_key_here
   DB_PREFIX: dev
+test:
+  APP_SECRET: secret_key_here
+  DB_PREFIX: test  
 prod:
   APP_SECRET: secret_key_here
   DB_PREFIX: prod

@@ -18,6 +18,7 @@ module.exports.updateTodo = (event, context, callback) => {
 };
 
 module.exports.updateTodoStatus = (event, context, callback) => {
+  console.log('testing update1');
   todo.updateTodoStatus(event, callback);
 };
 

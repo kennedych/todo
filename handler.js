@@ -3,11 +3,12 @@
 let todo = require('./lib/todo');
 
 module.exports.getAllTodos = (event, context, callback) => {
-  console.log('testing...');
+  console.log('testing getAll');
   todo.getAllTodos(event, callback);
 };
 
 module.exports.createTodo = (event, context, callback) => {
+  console.log('testing create');
   todo.createTodo(event, callback);
 };
 

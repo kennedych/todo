@@ -13,6 +13,7 @@ module.exports.createTodo = (event, context, callback) => {
 };
 
 module.exports.updateTodo = (event, context, callback) => {
+  console.log('testing update');
   todo.updateTodo(event, callback);
 };
 
